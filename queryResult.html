@@ -1,0 +1,239 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>账户查询</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>查询</title>
+<style type="text/css">
+* {
+	margin: 0;
+	padding: 0
+}
+
+.box {
+	width: 100%;
+	min-height: 700px;
+	margin: 0 auto;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.form {
+	width: 380px;
+	height: 370px;
+	position: absolute;
+	top: 280px;
+	left: 100px;
+}
+
+.span {
+	margin-top: 16px;
+	display: inline-block;
+	width: 100px;
+	font-size: 20px;
+	text-align: Justify;
+	margin-right: 15px;
+	/* color:#fff; */
+}
+
+.span1 {
+	margin-top: 16px;
+	display: inline-block;
+	width: 250px;
+	font-size: 20px;
+	text-align: Justify;
+	margin-right: 15px;
+	/* color:#fff; */
+}
+
+.span2 {
+	display: inline-block;
+	width: 575px;
+	font-size: 18px;
+	text-align: Justify;
+	margin-right: 15px;
+	/* color:#fff; */
+}
+
+.span3 {
+	display: inline-block;
+	width: 250px;
+	font-size: 18px;
+	text-align: right;
+	margin-right: 15px;
+	/* color:#fff; */
+}
+
+input {
+	width: 250px;
+	height: 30px;
+	margin-top: 15px;
+}
+
+.sex-box {
+	width: 170px;
+	height: 15px;
+}
+
+.submit {
+	width: 90px;
+	height: 40px;
+	float: right;
+	margin-top: 15px;
+	background-color: #5cb85c;
+	border-radius: 10px;
+	color: #fff;
+}
+.submit_1 {
+	width: 90px;
+	height: 40px;
+	float: right;
+	margin-top: 15px;
+	background-color: teal;
+	border-radius: 10px;
+	color: #fff;
+}
+.sex {
+	width: 15px;
+	height: 15px;
+}
+
+body {
+	background-color:navajowhite;
+	-moz-background-size: 100% 100%;
+	background-size: 100% 100%;
+}
+
+.check {
+	width: 50px;
+	height: 20px;
+}
+
+#left{
+	color:black;
+	font-size:16px;
+	
+	padding:10px;
+	position:absolute;
+	top: 100px;
+	right: 50px;
+	width:60%;
+}
+
+#left ul {
+  list-style-type: none;
+  text-align: left;
+  margin: 0;
+  padding: 10px;
+  overflow: hidden;
+}
+
+#left li a {
+		background-color: rgb(250, 235, 215, 0.5);
+		border: 1px solid black;
+  		outline-style: solid;
+  		outline-color: rgba(0, 0, 0, 0.5);
+        display: block;
+  		color: black;
+  		text-align: left;
+  		padding: 14px 16px;
+  		text-decoration: none;
+}
+
+#left li a:hover:not(.active) {
+  background-color: antiquewhite;
+  color: black;
+}
+
+#left li a.active {
+  color: black;
+  background-color: white;
+}
+
+</style>
+<script type="text/javascript">
+	function returnIndex(){
+		
+		window.location.href = "index.html";
+	}
+	
+	
+</script>
+
+
+</head>
+<body>
+
+	<div>
+		<h1 align="left" style="color: red">账户查询</h1>
+		<HR style="FILTER: alpha(opacity = 100, finishopacity = 0, style = 3)"
+			width="100%" color=#987cb9 SIZE=3>
+	</div>
+
+	<div class="box">
+		<form action="" class="form" id="formER" method = "post">
+
+			<span class="span">姓名:</span><span class="span1">谢柯丽 Cheah Ke Li</span><br>
+			<span class="span">编号:</span><span class="span1">2754738911528681</span><br>
+			<span class="span">余额:</span><span class="span1">RM 3, 048, 984, 950</span><br>
+			<br><br><br>
+			
+			
+			<input type="button" value="返回主页" class="submit"
+				id="accept" onclick = "javascript:returnIndex()">
+		</form>
+
+		<div id="left">
+			<ul>
+				<span class="span1">Transactions History</span>
+				<br>
+				<br>
+				<li><a href="#">
+					<span class="span2">Ref: 123456789</span><span class="span3">1 Dec,14:34</span>
+					<br>
+					<br>
+					<span class="span2">Receive from Da Wang</span><span class="span3">+ RM 3, 000, 000, 000</span>
+				</a></li>
+
+				<li><a href="#">
+					<span class="span2">Ref: 123456788</span><span class="span3">30 Nov,10:58</span>
+					<br>
+					<br>
+					<span class="span2">Receive from RuiShi</span><span class="span3">+ RM 20, 000</span>
+				</a></li>
+
+				<li><a href="#">
+					<span class="span2">Ref: 123456787</span><span class="span3">31 Oct,10:53</span>
+					<br>
+					<br>
+					<span class="span2">Receive from RuiShi</span><span class="span3">+ RM 20, 000</span>
+				</a></li>
+
+				<li><a href="#">
+					<span class="span2">Ref: 123456787</span><span class="span3">30 Sep,10:48</span>
+					<br>
+					<br>
+					<span class="span2">Receive from RuiShi</span><span class="span3">+ RM 20, 000</span>
+				</a></li>
+
+				<li><a href="#">
+					<span class="span2">Ref: 123456786</span><span class="span3">31 Aug,10:56</span>
+					<br>
+					<br>
+					<span class="span2">Receive from RuiShi</span><span class="span3">+ RM 20, 000</span>
+				</a></li>
+
+			</ul>
+
+	</div>
+
+	</div>
+
+	</div>
+
+	
+			
+</body>
+</html>
